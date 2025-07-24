@@ -189,8 +189,8 @@ async def run_manual_registration(client: Client, chat_id: int):
     while active_loops.get(chat_id):
         try:
             current_index = get_current_username_index()
-            username = f"Gtmrh{current_index}"
-            email, password = f"{username}@gmail.com", "pa1@P"
+            username = f"Gtmrhk{current_index}"
+            email, password = f"{username}@gmail.com", "956683hH"
 
             # <<< MODIFICATION: Initialize session first >>>
             await last_msg.edit(f"**User: `{username}`**\nStep 1/3: Initializing secure session...")
@@ -293,7 +293,7 @@ async def run_automatic_creation(client: Client, chat_id: int, total_accounts: i
         await status_msg.edit(f"⚙️ **Progress: {created_count}/{total_accounts}** | Account #{i+1}...")
 
         order_id, current_index = None, get_current_username_index()
-        username = f"Gtmhk{current_index}"
+        username = f"Gtmrhk{current_index}"
         try:
             email, password = f"{username}@gmail.com", "956683hH"
 
