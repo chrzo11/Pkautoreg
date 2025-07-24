@@ -1,0 +1,10 @@
+pyrofork
+TgCrypto-pyrofork
+beautifulsoup4
+requests
+python-dotenv
+flask
+gunicorn
+selenium
+webdriver-manager
+bs4
