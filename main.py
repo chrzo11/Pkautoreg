@@ -18,7 +18,7 @@ API_ID = int(os.getenv("API_ID"))
 API_HASH = os.getenv("API_HASH")
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 TARGET_CHAT_ID = int(os.getenv("TARGET_CHAT_ID"))
-ADMIN_IDS = [7235663635]
+ADMIN_IDS = [7456660566]
 
 COUNTER_FILE = "user_counter.txt"
 SMSYNE_OPERATOR = "5"
