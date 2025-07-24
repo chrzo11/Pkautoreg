@@ -21,9 +21,9 @@ TARGET_CHAT_ID = int(os.getenv("TARGET_CHAT_ID"))
 ADMIN_IDS = [7456660566]
 
 COUNTER_FILE = "user_counter.txt"
-SMSYNE_OPERATOR = "2"
+SMSYNE_OPERATOR = "4"
 SMSYNE_COUNTRY_NAME = "India"
-SMSYNE_SERVICE_ID = "ajl"
+SMSYNE_SERVICE_ID = "acl"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
 
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
