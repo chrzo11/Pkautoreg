@@ -123,7 +123,7 @@ async def cancel_command_handler(client: Client, message: Message):
 async def set_counter_handler(client: Client, message: Message):
     try:
         new_value = int(message.text.split(maxsplit=1)[1])
-        set_counter_value(new_value); await message.reply_text(f"✅ Counter set. Next: `Harishk{new_value}`.")
+        set_counter_value(new_value); await message.reply_text(f"✅ Counter set. Next: `Gtmrhk{new_value}`.")
     except (IndexError, ValueError): await message.reply_text("⚠️ Usage: `/setcounter <number>`")
 
 @app.on_message(filters.command("getcounter") & filters.private & filters.user(ADMIN_IDS))
