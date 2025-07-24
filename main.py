@@ -339,7 +339,7 @@ async def run_automatic_creation(client: Client, chat_id: int, total_accounts: i
                 set_status(api_key, order_id, 8); await asyncio.sleep(5); continue
 
             await status_msg.edit(f"**Progress: {created_count}/{total_accounts} | `{username}`**\nStep 4/5: Waiting for OTP...")
-            otp, max_wait = None, 300
+            otp, max_wait = None, 70
             for _ in range(max_wait // 10):
                 if not active_loops.get(chat_id): break
                 status_response = get_status(api_key, order_id)
