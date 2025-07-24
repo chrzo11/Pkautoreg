@@ -128,7 +128,7 @@ async def set_counter_handler(client: Client, message: Message):
 
 @app.on_message(filters.command("getcounter") & filters.private & filters.user(ADMIN_IDS))
 async def get_counter_handler(client: Client, message: Message):
-    await message.reply_text(f"ℹ️ Next username: `Harishk{get_current_username_index()}`.")
+    await message.reply_text(f"ℹ️ Next username: `Gtmrhk{get_current_username_index()}`.")
 
 @app.on_message(filters.command("balance") & filters.private & filters.user(ADMIN_IDS))
 async def balance_handler(client: Client, message: Message):
